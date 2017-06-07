@@ -100,6 +100,8 @@ Club de Football Américain</h1>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
     integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
     crossorigin="anonymous"></script>
+    <!-- slide2 -->
+    <script type="text/javascript" src="assets/js/Slide2.js"></script>
     <!--Paroller-->
     <script src="assets/js/jquery.paroller.js"></script>
     <script>
@@ -107,27 +109,6 @@ Club de Football Américain</h1>
             $(window).paroller();
             $('body').scrollspy({target: '#main-navbar'});
         });
-    </script>
-    <script type="text/javascript">
-      $(".closeJust-x").click(function(){
-        // div logo texte
-        $('#fText').removeClass("closeJust-x");
-        $('#fText').addClass("openJust-x");
-        $('#SlideText2').removeClass("vanish");
-        $('#SlideText2').addClass("mainTextAjust");
-        //div flag top
-        $('#Top').removeClass( "closeTop" );
-        $('#Top').addClass( "openTop" );
-        //div flag bot
-        $('#Bot').removeClass( "closeBot" );
-        $('#Bot').addClass( "openBot" );
-        //div flag right
-        $('#Right').removeClass( "closeRight" );
-        $('#Right').addClass( "openRight" );
-        //div flag  left
-        $('#Left').removeClass( "closeLeft" );
-        $('#Left').addClass( "openLeft" );
-      })
     </script>
   </body>
 </html>

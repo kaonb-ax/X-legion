@@ -204,28 +204,36 @@ font-family: Falcons, serif;
   background-position: 0 -8em;
   height: 30em;
 }
-.openTop{}
+.openTop{
+  background-position: 0 -16em;
+}
 .closeRight{
   background-image: url("../img/flagRight.png");
   background-repeat: no-repeat;
   background-position: left;
   height: 30em;
 }
-.openRight{}
+.openRight{
+  background-position: 12em -10em;
+}
 .closeLeft{
   background-image: url("../img/flagLeft.png");
   background-repeat: no-repeat;
   background-position: right;
   height: 30em;
 }
-.openLeft{}
+.openLeft{
+  background-position: -12em -10em;
+}
 .closeBot{
   background-image: url("../img/flagBot.png");
   background-repeat: no-repeat;
   background-position: 0 -10em;
   height: 30em;
 }
-.openBot{}
+.openBot{
+  background-position: 0em -2em;
+}
 .closeTxt{
   display:flex;
   justify-content: center;
@@ -241,7 +249,7 @@ font-family: Falcons, serif;
   cursor: pointer;
 }
 .openJust-x{
-  margin-top: 5em;
+  margin-top: 6em;
   margin-left: -17Em;
   height:8em;
   width: 10em;
@@ -254,14 +262,14 @@ font-family: Falcons, serif;
 /*==========Footer======================*/
 /*======================================*/
 footer{
-  background-color: #FF7F27;
+  background-color: black;
   background-size: cover;
 }
 .footText{
   font-size: 15px;
   font-weight: bolder;
   font-family: SourceSansPro, serif;
-  color:black;
+  color:white;
   text-align: center;
   margin: 0em;
   padding: 0.5em 0 20em 0;
