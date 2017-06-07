@@ -78,9 +78,9 @@ Club de Football Américain</h1>
           <div class="closeRight" id="right">
             <div class="closeLeft" id="left">
               <div class="closeBot" id="bot">
-                <div class="closeTxt" id="fText">
-                  <div class="closeJust-x">
-                    <p class="mainTextAlign SlideText1 vanish">En Xanadu donc Koubla Khan Se fit édifier un fastueux palais: Là où le fleuve Alphée, aux eaux sacrées, allait, Par de sombres abîmes à l’homme insondables, Se précipiter dans une mer sans soleil.</p>
+                <div class="closeTxt">
+                  <div class="closeJust-x" id="fText">
+                    <p id="SlideText2" class="mainTextAlign SlideText1 vanish">En Xanadu lui Koubla Khan Se fit édifier un fastueux palais: Là où le fleuve Alphée, aux eaux sacrées, allait, Par de sombres abîmes à l’homme insondables, Se précipiter dans une mer sans soleil.</p>
                   </div>
                 </div><!--fTxt-->
               </div><!--bot-->
@@ -110,16 +110,23 @@ Club de Football Américain</h1>
     </script>
     <script type="text/javascript">
       $(".closeJust-x").click(function(){
+        // div logo texte
+        $('#fText').removeClass("closeJust-x");
+        $('#fText').addClass("openJust-x");
+        $('#SlideText2').removeClass("vanish");
+        $('#SlideText2').addClass("mainTextAjust");
+        //div flag top
         $('#Top').removeClass( "closeTop" );
         $('#Top').addClass( "openTop" );
+        //div flag bot
         $('#Bot').removeClass( "closeBot" );
         $('#Bot').addClass( "openBot" );
+        //div flag right
         $('#Right').removeClass( "closeRight" );
         $('#Right').addClass( "openRight" );
+        //div flag  left
         $('#Left').removeClass( "closeLeft" );
         $('#Left').addClass( "openLeft" );
-        $('#fText').removeClass("closeTxt");
-        $('#fText').addClass("Text");
       })
     </script>
   </body>

@@ -118,6 +118,9 @@ font-family: Falcons, serif;
   height: auto;
   margin: 0 auto 0 auto;
 }
+.mainTextAjust{
+  width:15em;
+}
 .middle1{
   background-image: url("../img/splitSecond.png");
   background-repeat: no-repeat;
@@ -237,6 +240,14 @@ font-family: Falcons, serif;
   width: 10em;
   cursor: pointer;
 }
+.openJust-x{
+  margin-top: 5em;
+  margin-left: -17Em;
+  height:8em;
+  width: 10em;
+  cursor: pointer;
+}
+
 
 
 /*======================================*/
