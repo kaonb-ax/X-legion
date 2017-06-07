@@ -74,12 +74,14 @@ Club de Football Américain</h1>
       </article>
       <article class="slide2">
         <!-- flag top start -->
-        <div class="fTop">
-          <div class="fRight">
-            <div class="fLeft">
-              <div class="fBot">
-                <div class="fTxt">
-                  <p class="mainTextAlign SlideText1"></p>
+        <div class="closeTop" id="top">
+          <div class="closeRight" id="right">
+            <div class="closeLeft" id="left">
+              <div class="closeBot" id="bot">
+                <div class="closeTxt" id="fText">
+                  <div class="closeJust-x">
+                    <p class="mainTextAlign SlideText1 vanish">En Xanadu donc Koubla Khan Se fit édifier un fastueux palais: Là où le fleuve Alphée, aux eaux sacrées, allait, Par de sombres abîmes à l’homme insondables, Se précipiter dans une mer sans soleil.</p>
+                  </div>
                 </div><!--fTxt-->
               </div><!--bot-->
             </div><!--left-->
@@ -105,6 +107,20 @@ Club de Football Américain</h1>
             $(window).paroller();
             $('body').scrollspy({target: '#main-navbar'});
         });
+    </script>
+    <script type="text/javascript">
+      $(".closeJust-x").click(function(){
+        $('#Top').removeClass( "closeTop" );
+        $('#Top').addClass( "openTop" );
+        $('#Bot').removeClass( "closeBot" );
+        $('#Bot').addClass( "openBot" );
+        $('#Right').removeClass( "closeRight" );
+        $('#Right').addClass( "openRight" );
+        $('#Left').removeClass( "closeLeft" );
+        $('#Left').addClass( "openLeft" );
+        $('#fText').removeClass("closeTxt");
+        $('#fText').addClass("Text");
+      })
     </script>
   </body>
 </html>

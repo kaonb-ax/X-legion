@@ -143,6 +143,7 @@ font-family: Falcons, serif;
 .splitEnd{
   background-image: url("../img/splitEnd.png");
   background-repeat: no-repeat;
+  background-position: right;
   min-height:7em;
   z-index: 3;
   position:relative;
@@ -191,20 +192,51 @@ font-family: Falcons, serif;
   background-size: contain;
   background-position: center;
 }
-.fTop{
+.vanish{
+  display: none;
+}
+.closeTop{
   background-image: url("../img/flagTop.png");
-    height: 25em;
-    margin-top: -22em;
+  background-repeat: no-repeat;
+  background-position: 0 -8em;
+  height: 30em;
 }
-/*.fRight{
-  background-image: url("../img/flagRight.jpg");
+.openTop{}
+.closeRight{
+  background-image: url("../img/flagRight.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 30em;
 }
-.fLeft{
-  background-image: url("../img/flagLeft.jpg");
+.openRight{}
+.closeLeft{
+  background-image: url("../img/flagLeft.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 30em;
 }
-.fBot{
-  background-image: url("../img/flagBot.jpg");
-}*/
+.openLeft{}
+.closeBot{
+  background-image: url("../img/flagBot.png");
+  background-repeat: no-repeat;
+  background-position: 0 -10em;
+  height: 30em;
+}
+.openBot{}
+.closeTxt{
+  display:flex;
+  justify-content: center;
+}
+.closeJust-x{
+  background-image: url('../img/X-just.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10.5em;
+  margin-left: 1.5em;
+  height:8em;
+  width: 10em;
+  cursor: pointer;
+}
 
 
 /*======================================*/
