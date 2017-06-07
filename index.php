@@ -41,7 +41,7 @@ Club de Football Américain</h1>
         </div>
         <!-- ===flip arrow end=== -->
       </article>
-      <article class="BG1">
+      <article class="slide1">
         <div class="splitStart"></div>
           <!-- ====WR==== -->
           <div class="frameWR"
@@ -71,6 +71,21 @@ Club de Football Américain</h1>
             </div>
         </div>
         <div class="splitEnd"></div>
+      </article>
+      <article class="slide2">
+        <!-- flag top start -->
+        <div class="fTop">
+          <div class="fRight">
+            <div class="fLeft">
+              <div class="fBot">
+                <div class="fTxt">
+                  <p class="mainTextAlign SlideText1"></p>
+                </div><!--fTxt-->
+              </div><!--bot-->
+            </div><!--left-->
+          </div><!--right-->
+        </div><!--top-->
+        <!-- <div class="splitEnd"></div> -->
       </article>
     </section>
 

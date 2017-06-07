@@ -126,7 +126,7 @@ font-family: Falcons, serif;
 .fleche{
   display:flex;
   justify-content: center;
-  background-image: url("../img/orange.jpg");
+  background-color: #FF7F27;
   background-size: cover;
   padding-top: 8em;
   padding-bottom: 7em;
@@ -143,10 +143,11 @@ font-family: Falcons, serif;
 .splitEnd{
   background-image: url("../img/splitEnd.png");
   background-repeat: no-repeat;
-  min-height:3em;
-
+  min-height:7em;
+  z-index: 3;
+  position:relative;
 }
-.BG1{
+.slide1{
   max-height: 30em;
   background-image: url("../img/stadiumGrey.jpg");
   background-repeat: no-repeat;
@@ -159,7 +160,7 @@ font-family: Falcons, serif;
 
 }
 .SlideText1{
-  padding-top: 1em;
+  padding-top: 0.7em;
   font-size: 30px;
   color:white;
   text-shadow: 2px 2px 2px black;
@@ -181,14 +182,36 @@ font-family: Falcons, serif;
   background-size: contain;
   background-position: 30%, 20%;
 }
-
+.slide2{
+  margin-top:3.8em;
+  height: 30em;
+  background-color: #FF7F27;
+  background-image: url("../img/the-duke.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.fTop{
+  background-image: url("../img/flagTop.png");
+    height: 25em;
+    margin-top: -22em;
+}
+/*.fRight{
+  background-image: url("../img/flagRight.jpg");
+}
+.fLeft{
+  background-image: url("../img/flagLeft.jpg");
+}
+.fBot{
+  background-image: url("../img/flagBot.jpg");
+}*/
 
 
 /*======================================*/
 /*==========Footer======================*/
 /*======================================*/
 footer{
-  background-image: url("../img/orange.jpg");
+  background-color: #FF7F27;
   background-size: cover;
 }
 .footText{
