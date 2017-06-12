@@ -189,51 +189,41 @@ font-family: Falcons, serif;
 .slide2{
   margin-top:3.8em;
   height: 30em;
-  background-color: #FF7F27;
+  background-color: white;
   background-image: url("../img/the-duke.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .vanish{
-  display: none;
+display: none;
 }
 .closeTop{
   background-image: url("../img/flagTop.png");
   background-repeat: no-repeat;
-  background-position: 0 -8em;
+  background-position: -12.6em -8.5em;
   height: 30em;
-}
-.openTop{
-  background-position: 0 -16em;
 }
 .closeRight{
   background-image: url("../img/flagRight.png");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: -12.6em -9.5em;
   height: 30em;
-}
-.openRight{
-  background-position: 12em -10em;
 }
 .closeLeft{
   background-image: url("../img/flagLeft.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: -13em -9em;
   height: 30em;
 }
-.openLeft{
-  background-position: -12em -10em;
-}
+
 .closeBot{
   background-image: url("../img/flagBot.png");
   background-repeat: no-repeat;
-  background-position: 0 -10em;
+  background-position: -12.6em -10em;
   height: 30em;
 }
-.openBot{
-  background-position: 0em -2em;
-}
+
 .closeTxt{
   display:flex;
   justify-content: center;
@@ -243,7 +233,7 @@ font-family: Falcons, serif;
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 10.5em;
-  margin-left: 1.5em;
+  margin-left: 2em;
   height:8em;
   width: 10em;
   cursor: pointer;

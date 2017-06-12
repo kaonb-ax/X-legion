@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>X-légion</title>
+    <title>club de football américain narbonne</title>
     <link href="assets/css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -80,7 +80,7 @@ Club de Football Américain</h1>
               <div class="closeBot" id="bot">
                 <div class="closeTxt">
                   <div class="closeJust-x" id="fText">
-                    <p id="SlideText2" class="mainTextAlign SlideText1 vanish">En Xanadu lui Koubla Khan Se fit édifier un fastueux palais: Là où le fleuve Alphée, aux eaux sacrées, allait, Par de sombres abîmes à l’homme insondables, Se précipiter dans une mer sans soleil.</p>
+                    <p id="SlideText2" class="mainTextAlign SlideText1 vanish ">En Xanadu lui Koubla Khan Se fit édifier un fastueux palais: Là où le fleuve Alphée, aux eaux sacrées, allait, Par de sombres abîmes à l’homme insondables, Se précipiter dans une mer sans soleil.</p>
                   </div>
                 </div><!--fTxt-->
               </div><!--bot-->
@@ -97,9 +97,7 @@ Club de Football Américain</h1>
       </div>
     </footer>
     <!--Jquery-->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-    integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-    crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.3.2.1.min.js"></script>
     <!-- slide2 -->
     <script type="text/javascript" src="assets/js/Slide2.js"></script>
     <!--Paroller-->
