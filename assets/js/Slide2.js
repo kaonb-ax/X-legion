@@ -34,7 +34,8 @@ $(".closeJust-x").click(function(){
    $('#left').animate({'background-position-x': '+=14em'});
    count = false;
  }
-
 })
+// shake effect===============
+
 //fin du doc ready
 });
