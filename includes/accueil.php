@@ -3,7 +3,7 @@
   $('#club').removeClass("active");
   $('#roster').removeClass("active");
   $('#contact').removeClass("active");
-  $('#boutique').removeClass("active");
+  $('#user').removeClass("active");
 </script>
 <section>
   <article class="first">
