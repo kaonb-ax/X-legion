@@ -9,8 +9,8 @@
   <article class="first">
     <div class="blanc">
       <div class="middle0"></div>
-       <h1 class="mainTextAlign ">Bienvenue sur le site de la Xème LEGION de Narbonne.
-Club de Football Américain</h1>
+       <h1 class="mainTextAlign ">Bienvenue sur le site de la Xème LEGION </br>
+Club de Football Américain de Narbonne</h1>
       <div class="middle1"></div>
     </div>
   </article>
@@ -69,7 +69,7 @@ Club de Football Américain</h1>
           <div class="closeBot" id="bot">
             <div class="closeTxt">
               <div class="closeJust-x" id="fText">
-                <p id="SlideText2" class="mainTextAlign SlideText1 vanish ">En Xanadu lui Koubla Khan Se fit édifier un fastueux palais: Là où le fleuve Alphée, aux eaux sacrées, allait, Par de sombres abîmes à l’homme insondables, Se précipiter dans une mer sans soleil.</p>
+                <p id="SlideText2" class="mainTextAlign SlideText1 vanish ">En Xanadu donc Koubla Khan se fit édifier un fastueux palais: là où le fleuve Alphée, aux eaux sacrées, allait, par de sombres abîmes à l’homme insondables, se précipiter dans une mer sans soleil.</p>
               </div>
             </div><!--fTxt-->
           </div><!--bot-->

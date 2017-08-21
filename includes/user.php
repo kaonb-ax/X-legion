@@ -13,14 +13,14 @@
         <h1 class="title">Welcome</h1>
         <h4>free account</h4>
         <label for="pseudo">Nickname</label>
-        <input type="text" id="pseudo" name="pseudo" value="" autofocus placeholder="Nickname">
+        <input type="text" id="pseudo" name="pseudo" autofocus placeholder="Nickname">
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" value="" placeholder="my.address@mymail.com">
+        <input type="email" id="email" name="email" placeholder="my.address@mymail.com">
         <label for="password">Password</label>
         <input type="password" id="password" name="password" placeholder="6 letters min">
         <input type="password" id="repassword" name="repassword" placeholder="same password">
         <a href="#" class="forgot" >Forgot your password?</a>
         <button type="submit" id="submit" class="submit" name="button">Sign In</button>
     </form>
-</article>
+  </article>
 </div>

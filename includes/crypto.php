@@ -3,8 +3,7 @@ $options = [
     'cost' => 10,
     'salt' => mcrypt_create_iv(22, MCRYPT_DEV_URANDOM),
 ];
-$cryptoPass = password_hash("$pass", PASSWORD_BCRYPT, $options)."\n";
-
+$cryptoPass = password_hash("$password", PASSWORD_BCRYPT, $options)."\n";
 //teste quel cost choisir par rapport au temp de calcul
 // $timeTarget = 0.07; // 50 millisecondes
 // $cost = 8;
