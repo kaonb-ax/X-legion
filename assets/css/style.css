@@ -248,6 +248,32 @@ font-family: Falcons, serif;
   width: 10em;
   cursor: pointer;
 }
+/*=====header===== */
+.user_name{
+  color: white;
+  float: left;
+  position: absolute;
+  margin-left: 0.2em;
+  margin-top: 2em;
+  -webkit-transform:rotate(-1.5deg);
+  -moz-transform:rotate(-1.5deg);
+  -o-transform:rotate(-1.5deg);
+  /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.1); */
+  -ms-transform:rotate(-1.5deg);
+    transform:  rotate(-1.5deg);
+}
+.logout{
+  display:flex;
+  color: white;
+  right: 2em;
+  position: absolute;
+  margin-left: 0.2em;
+  margin-top: 2em;
+}
+div.logout > i{
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+}
 /*========================Formulaire=========================*/
 article.formulaire{
   padding: 1em 1em;

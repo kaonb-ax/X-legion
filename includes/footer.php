@@ -14,7 +14,7 @@
   </div>
 </footer>
 <!-- navigation -->
-<script src="assets/js/nav.js"></script>
+<script src="assets/js/app.js"></script>
 <!-- slide2 -->
 <script type="text/javascript" src="assets/js/Slide2.js"></script>
 <!--Paroller-->
