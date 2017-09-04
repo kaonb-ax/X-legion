@@ -19,19 +19,22 @@ session_start();
         <span><a href="accueil.php" id="club">Team</a></span>
         <span><a href="roster.php" id="roster">Roster</a></span>
         <img src="assets/img/Xlegion_banner.png" alt="logo dixième légion" id="legion">
-        <span><a href="profile.php" id="contact">Profile</a></span>
+        <span><a href="#" id="contact">Profile</a></span>
         <span><a href="#" id="user">Login</a></span>
     </header>
     <h2 class="user_name">Hello
     <?php
-      if(isset($_SESSION['name'])){
-        echo $_SESSION['name'];
+      if(isset($_SESSION['login'])&&($_SESSION['login']===TRUE)){
+        echo $_SESSION['name']."!</h2>";
+        echo '<a href="#">
+                <div class="logout">
+                    <h2>log out </h2>
+                    <i class="fa  fa-sign-out" aria-hidden="true"></i>
+                </div>
+              </a>';
       }else{
-        echo 'you';
-      }  ?> !</h2>
-      <a href="#"><div class="logout">
-            <h2>log out </h2><i class="fa  fa-sign-out" aria-hidden="true"></i>
-      </div></a>
+        echo 'you !</h2>';
+      }  ?>
     <div id="modal_frame" class="hidden">
       <article class="formulaire">
         <form class="text flex column" action="traitement.php" method="POST">

@@ -24,7 +24,6 @@ h1, h2, h3, h4, h5{
 .whiteBox{
   background-color: white;
   border-radius: 12px;
-  height: 26em;
   width: 50%;
   margin-top: 2em;
   margin-right: 25%;
@@ -35,14 +34,14 @@ h1, h2, h3, h4, h5{
   font-family: SourceSansPro, sans-serif;
   display: flex;
   align-items: center;
-  justify-content: center;  flex-direction: column;
+  flex-direction: column;
 }
 em{
   font-weight: bolder;
 }
 .profile{
   width: 80%;
-  height: 9em;
+  height: 6em;
   margin: 0.5em;
   border-radius: 12px;
 }

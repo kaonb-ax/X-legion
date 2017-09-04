@@ -1,6 +1,6 @@
 
 <script type="text/javascript">
-  $('#club').removeClass("active");
+  $('#club').addClass("active");
   $('#roster').removeClass("active");
   $('#contact').removeClass("active");
   $('#user').removeClass("active");
